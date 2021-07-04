@@ -3,10 +3,13 @@ body{
     margin: 0;
 }
 span{
-    color: green;
+    color: royalblue;
 }
 h1{
     font-size: 50px;
+}
+h2{
+    font-size: 30px;
 }
 .flex-container{
     display: flex;
@@ -21,21 +24,47 @@ h1{
     background-repeat: no-repeat;
     background-position: right;
 }
+.product-port{
+    background-image: url(pictures/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
 .half-width{
     width: 50%;
     margin-left: 5%;
     margin-right: 5px;
     padding-left: 3%;
 }
+.box-shadow{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 6%;
+    padding-left: 20px;
+    border-radius: 15px;
+    box-shadow: 10px 12px 30px greenyellow;
+}
+.ess-box{
+    border-left: 7px solid;
+    border-image: linear-gradient(green, red);
+    border-image-slice: 1;
+}
+.fas-box{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, blue);
+    border-image-slice: 1;
+}
 .click-button{
     text-decoration: none;
     color: white;
     background-image: linear-gradient(orange, tomato);
-    border-radius: 12px solid;
+    border-radius: 12px;
     padding: 10px 30px;
     font-weight: 500;
     
 }
 .half-width img{
     width: 90%;
+}
+footer p{
+    text-align: center;
 }
