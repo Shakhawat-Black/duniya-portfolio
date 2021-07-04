@@ -1,2 +1,41 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+span{
+    color: green;
+}
+h1{
+    font-size: 50px;
+}
+.flex-container{
+    display: flex;
+    margin-bottom: 150px;
+}
+.welcome-port{
+    background-image: url(pictures/top-banner.png);
+    background-repeat: no-repeat;
+}
+.about-port{
+    background-image: url(pictures/drm-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.half-width{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5px;
+    padding-left: 3%;
+}
+.click-button{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(orange, tomato);
+    border-radius: 12px solid;
+    padding: 10px 30px;
+    font-weight: 500;
+    
+}
+.half-width img{
+    width: 90%;
+}
